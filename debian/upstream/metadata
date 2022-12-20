@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: https://rt.cpan.org/Public/Dist/Display.html?Name=Class-Load-XS
+Bug-Submit: bug-Class-Load-XS@rt.cpan.org
+Contact: Dave Rolsky <autarch@urth.org>
+Name: Class-Load-XS
+Repository: https://github.com/moose/Class-Load-XS.git
+Repository-Browse: https://github.com/moose/Class-Load-XS

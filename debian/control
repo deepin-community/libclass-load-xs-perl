@@ -1,0 +1,30 @@
+Source: libclass-load-xs-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Alessandro Ghedini <ghedo@debian.org>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: perl,
+               debhelper (>= 9.20120312~),
+               libclass-load-perl (>= 0.20),
+               libmodule-implementation-perl,
+               libtest-needs-perl,
+               libtest-fatal-perl,
+               libtest-without-module-perl
+Standards-Version: 4.0.0
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libclass-load-xs-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libclass-load-xs-perl.git
+Homepage: https://metacpan.org/release/Class-Load-XS
+
+Package: libclass-load-xs-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         ${perl:Depends},
+         libclass-load-perl (>= 0.20)
+Description: XS implementation of parts of Class::Load
+ Class::Load::XS provides an XS implementation for portions of Class::Load, a
+ module that provides several functions to load classes at runtime.
+ .
+ See Class::Load in the libclass-load-perl package for API details.
